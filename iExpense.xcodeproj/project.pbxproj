@@ -81,14 +81,12 @@
 		DAC33E5D246DEFA70080A09C /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				DAC33E85246DF0A60080A09C /* Resources */,
+				DAC33E84246DF0970080A09C /* DataLayer */,
+				DAC33E83246DF08A0080A09C /* ViewLayer */,
 				DAC33E5E246DEFA70080A09C /* AppDelegate.swift */,
 				DAC33E60246DEFA70080A09C /* SceneDelegate.swift */,
-				DAC33E65246DEFA70080A09C /* ContentView.swift */,
-				DAC33E67246DEFA80080A09C /* Assets.xcassets */,
-				DAC33E6C246DEFA80080A09C /* LaunchScreen.storyboard */,
 				DAC33E6F246DEFA80080A09C /* Info.plist */,
-				DAC33E62246DEFA70080A09C /* iExpense.xcdatamodeld */,
-				DAC33E69246DEFA80080A09C /* Preview Content */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -108,6 +106,32 @@
 				DAC33E7A246DEFA80080A09C /* Info.plist */,
 			);
 			path = iExpenseTests;
+			sourceTree = "<group>";
+		};
+		DAC33E83246DF08A0080A09C /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DAC33E65246DEFA70080A09C /* ContentView.swift */,
+				DAC33E6C246DEFA80080A09C /* LaunchScreen.storyboard */,
+			);
+			path = ViewLayer;
+			sourceTree = "<group>";
+		};
+		DAC33E84246DF0970080A09C /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DAC33E62246DEFA70080A09C /* iExpense.xcdatamodeld */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		DAC33E85246DF0A60080A09C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAC33E69246DEFA80080A09C /* Preview Content */,
+				DAC33E67246DEFA80080A09C /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,7 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iExpense/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -386,7 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iExpense/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
